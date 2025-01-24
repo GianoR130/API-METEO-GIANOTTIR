@@ -1,0 +1,46 @@
+body {
+    font-family: 'Franklin Gothic Regular';
+    text-align: center;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+    color: #000000;
+    background-image: url("nuvola-bianca-su-cielo-blu-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+#meteo {
+    margin-top: 20px;
+    font-size: 1.2em;
+}
+
+.card {
+    background-color: #ffffff;
+    border: 1px solid #dee2e6;
+    border-radius: 0.25rem;
+    outline: 2px solid rgb(0, 0, 0);
+}
+
+.card-title {
+    font-size: 1rem;
+    color: #495057; 
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #495057; 
+}
+
+#icone {
+    width: 2rem;
+    transition: width 0.3s ease;
+}
+
+#icone:hover {
+    width: 3rem; 
+}
